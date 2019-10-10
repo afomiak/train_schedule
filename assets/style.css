@@ -1,0 +1,52 @@
+body {
+	margin: 2% 5%;
+	background-color: aquamarine;
+}
+
+.jumbotron {
+	text-align: center;
+	background: lightsteelblue;
+	color:darkblue;
+}
+
+h1, p {
+	text-shadow: 0 0 20px #000000;
+}
+
+td {
+	border-right:2px  solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-top: 0;
+}
+
+th {
+	text-align: center;
+	border-bottom: 2px solid #000000 !important;
+	border-right: 2px solid #000000 !important;
+
+}
+
+th:last-child, td:last-child {
+	border-right: none !important;
+}
+
+.panel, .jumbotron {
+	border: 5px solid black !important;
+	border-radius: 10px;
+}
+
+td {
+	text-align: center;
+}
+.panel{
+		font-family:Lobster;
+}
+.btn {
+	color:white;
+	background-color: red;
+	width: 220px;
+}
+.btn:hover{
+	background-color:lightskyblue;
+	color:darkslateblue;
+}
